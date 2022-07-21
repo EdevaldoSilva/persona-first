@@ -47,7 +47,7 @@ function App() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   <a href="#" className="font-medium text-gray-500 hover:text-gray-900">
-                    Marketplace
+                    Marketplaces
                   </a>
                   <a href="#" className="font-medium text-gray-500 hover:text-gray-900">
                     Produtos
