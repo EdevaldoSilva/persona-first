@@ -1,0 +1,7 @@
+h1 {
+  @apply font-bold text-3xl;
+}
+
+h3 {
+  @apply font-semibold;
+}
