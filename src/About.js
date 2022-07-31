@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaUser } from "react-icons/fa";
+import './App.css'
 
 function About() {
     return (
         <div>
             {/* Decricao inicial */}
-            <section style={{ height: "70vh" }} className='mt-2 py-28 px-10 text-center bg-teal-900'>
+            <section style={{ height: "70vh"}} className='mt-2 py-28 px-10 text-center bg-light-section'>
                 <div className='mx-auto max-w-6xl align-middle text-white'>
                     <h1 className='text-4xl'>Nos focamos em disponibilizar os melhores servicos</h1>
                     <h1 className='text-3xl'>para os nossos freelancers e igualmente os clientes.</h1>
@@ -43,7 +44,7 @@ function About() {
             </section>
 
             {/* Os integrantes da compania */}
-            <section className='mt-2 py-16 px-10 text-center align-middle bg-cyan-100'>
+            <section style={{color: "#EBF3F3"}} className='mt-2 py-16 px-10 text-center align-middle text-white bg-dark-section'>
                 <div className='mx-auto max-w-6xl'>
                     <h1>Estrutura Organica</h1>
                     <div className="grid grid-cols-3 gap-28 align-middle">

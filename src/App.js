@@ -8,6 +8,7 @@ import SharedLayout from './SharedLayout';
 import Error404 from './Error404';
 import Login from './Login';
 import FreelancerProfile from './FreelancerProfile';
+import VerAnuncios from './VerAnuncios';
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -25,6 +26,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='freelancer' element={<FreelancerProfile />} />
+            <Route path='ver-anuncios' element={<VerAnuncios />} />
             <Route path='*' element={<Error404 />} />
           </Route>
           <Route path='login' element={<Login />} />

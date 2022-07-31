@@ -3,16 +3,18 @@ import logo from './assets/persona_logo.png';
 import banner from './assets/banner.jpg';
 import banner2 from './assets/banner2.jpg';
 import pedido from './assets/pedido-template.jpg';
+import bg from './assets/bg-teste.png';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <>
+        <div style={{background: `url(${bg}) repeat-y`, color: `white`}}>
             {/* Hero */}
             <main
-                style={{ height: '31rem', backgroundImage: `url(${banner2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                // style={{ height: '31rem', backgroundImage: `url(${banner2})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                style={{ height: '31rem'}}>
                 <div className='p-8 relative h-full gap-3 text-center text-white'>
                     <h1 className='my-4 py-4 text-4xl'>
                         Bem-vindo(a) a Persona
@@ -70,7 +72,7 @@ const Home = () => {
                 <div className='mx-auto max-w-6xl'>
                     <h1>Como Funciona</h1>
                     <div className="flex flex-row gap-24">
-                        <div className='mt-6 p-3 shadow-sm shadow-gray-400'>
+                        <div className='mt-6 p-3 bg-white text-black shadow-sm shadow-gray-400'>
                             <img
                                 className="h-30 w-30 object-cover inline-block mx-auto sm:h-72 md:h-96 lg:w-44 lg:h-44 rounded-full"
                                 src={banner}
@@ -81,7 +83,7 @@ const Home = () => {
                                 mauris urna nec leo</p>
                         </div>
 
-                        <div className='mt-6 p-3 shadow-sm shadow-gray-400'>
+                        <div className='mt-6 p-3 bg-white text-black shadow-sm shadow-gray-400'>
                             <img
                                 className="h-30 w-30 object-cover inline-block mx-auto sm:h-72 md:h-96 lg:w-44 lg:h-44 rounded-full"
                                 src={banner}
@@ -92,7 +94,7 @@ const Home = () => {
                                 mauris urna nec leo</p>
                         </div>
 
-                        <div className='mt-6 p-3 shadow-sm shadow-gray-400'>
+                        <div className='mt-6 p-3 bg-white text-black shadow-sm shadow-gray-400'>
                             <img
                                 className="h-30 w-30 object-cover inline-block mx-auto sm:h-72 md:h-96 lg:w-44 lg:h-44 rounded-full"
                                 src={banner}
@@ -111,7 +113,7 @@ const Home = () => {
                 <div className='mx-auto max-w-6xl'>
                     <h1>Faça um pedido</h1>
                     <div className="mt-3 p-4 grid grid-cols-2 gap-4">
-                        <div className='mx-4 p-3 flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
+                        <div className='mx-4 p-3 bg-white text-black flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
                             <img
                                 className="h-30 w-30 object-cover rounded-lg sm:h-72 md:h-96 lg:w-44 lg:h-44"
                                 src={pedido}
@@ -133,7 +135,7 @@ const Home = () => {
 
                         </div>
 
-                        <div className='mx-4 p-3 flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
+                        <div className='mx-4 p-3 bg-white text-black flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
                             <img
                                 className="h-30 w-30 object-cover rounded-lg sm:h-72 md:h-96 lg:w-44 lg:h-44"
                                 src={pedido}
@@ -155,7 +157,7 @@ const Home = () => {
 
                         </div>
 
-                        <div className='mx-4 p-3 flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
+                        <div className='mx-4 p-3 bg-white text-black flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
                             <img
                                 className="h-30 w-30 object-cover rounded-lg sm:h-72 md:h-96 lg:w-44 lg:h-44"
                                 src={pedido}
@@ -176,7 +178,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className='mx-4 p-3 flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
+                        <div className='mx-4 p-3 bg-white text-black flex flex-row gap-4 text-justify shadow-sm shadow-slate-300'>
                             <img
                                 className="h-30 w-30 object-cover rounded-lg sm:h-72 md:h-96 lg:w-44 lg:h-44"
                                 src={pedido}
@@ -208,7 +210,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 

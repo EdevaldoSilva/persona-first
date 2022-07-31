@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(//db.onlinewebfonts.com/c/2252723cbb01aa54a9bca097e8b1fcf8?family=BiomeW01-Light);
+
 body {
-    background-color: #fafafa;
+  background-color: #fafafa;
+  font-family: BiomeW01-Light sans-serif;
+}
+
+.bg-light-section {
+  background-color: #3c8a7d;
+}
+
+.bg-dark-section {
+  background-color: #33907d;
 }

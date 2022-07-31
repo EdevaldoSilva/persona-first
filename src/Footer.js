@@ -8,7 +8,7 @@ export default function Footer() {
         <>
             {/* Entrar */}
             <section section className='mt-2 py-8 px-6' >
-                <div className='mx-auto max-w-6xl justify-center flex space-x-10'>
+                <div className='mx-auto max-w-6xl bg-white text-black justify-center flex space-x-10'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis nunc ac justo accumsan viverra. Nullam hendrerit maximus neque in</p>
                     <div className="rounded-md">
                         <a
